@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("http://fonts.cdnfonts.com/css/gotham");
+body {
+  margin: 0;
+}
+.navbar {
+  background: #efefef 0% 0% no-repeat padding-box;
+  opacity: 1;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
+.navbar-toggler-icon {
+  background-image: url("./assets/hamburger-menu/hamburger-menu.png");
+}
